@@ -40,7 +40,7 @@ for idx in holdingsSheet['Holdings ']:
       NUM_OF_PORTFOLIO_TICKERS += 1
   
 def portfolioStats():
-  # Original Google Sheet URL: https://docs.google.com/spreadsheets/d/1P9p4f0TTpNg-wpwSySDY238Za-lpvukTFbiO9ozhYPA/edit?usp=sharing
+  # Original Google Sheet URL: INSERT HERE
   table = "----------Apex Portfolio Statistics----------\n";
   for num in range(NUM_OF_PORTFOLIO_TICKERS):
     table += holdingsSheet['Holdings '][num] + " P/L: " + holdingsSheet['P/L'][num] + "\n"
